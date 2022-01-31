@@ -132,7 +132,7 @@ In general, try to avoid coding categorical or ordinal variables as numbers. Whe
 data, it should be "male" or "female". The ordinal values in the data set should be "poor", "fair", and "good" not 1, 2 ,3.
 This will avoid potential mixups about which direction effects go and will help identify coding errors. 
 
-Always encode every piece of information about your observations using text. For example, if you are storing data in Excel and use a form of colored text or cell background formatting to indicate information about an observation ("red variable entries were observed in experiment 1.") then this information will not be exported (and will be lost!) when the data is exported as raw text.  Every piece of data should be encoded as actual text that can be exported.  
+Always encode every piece of information about your observations using text. For example, if you are storing data in Excel and use a form of colored text or cell background formatting to indicate information about an observation ("red variable entries were observed in experiment 1.") then this information will not be exported (and will be lost!) when the data is exported as raw text. Every piece of data should be encoded as actual text that can be exported.  
 
 ### The instruction list/script
 
@@ -171,8 +171,8 @@ checks.
 You should then expect from the statistician:
 
 1. An analysis script that performs each of the analyses (not just instructions)
-1. The exact computer code they used to run the analysis
-1. All output files/figures they generated. 
+2. The exact computer code they used to run the analysis
+3. All output files/figures they generated. 
 
 This is the information you will use in the supplement to establish reproducibility and precision of your results. Each
 of the steps in the analysis should be clearly explained and you should ask questions when you don't understand
